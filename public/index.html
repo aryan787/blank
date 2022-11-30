@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="js/index.js"></script>
+        <script src="/js/moment.js"></script>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <section>
+            <div class="main-div">
+                <!-- <div class="newRoom">
+                    <h2>Create A new Room</h2>
+                    <div class="form">
+                        <label>Room Name</label>
+                        <input type="text" id="newRoomName">
+
+                        <label>Room Id</label>
+                        <input type="text" placeholder="Auto Created" disabled>
+
+                        <label>Name</label>
+                        <input type="text" id="userNameForNewRoom" placeholder="Enter your name">
+
+                        <button onclick = "createNewRoom()">Create Room</button>
+                    </div>
+                </div> -->
+                <div class="newRoom">
+                    <h2>Join chat Room</h2>
+
+                    <div class="form">
+                        <label>Room Name</label>
+                        <input type="text" id="existingRoomName">
+
+                        <label>Room Id</label>
+                        <input type="text" id="roomId">
+
+                        <label>Name</label>
+                        <input type="text" id="userName" placeholder="Enter your name">
+
+                        <button onclick = "joinRoom()">Join Room</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

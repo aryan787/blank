@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Chat App</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/js/script.js"></script>
+        <script src="/js/moment.js"></script>
+
+    </head>
+
+    <body onload="basicDetails()">
+        <section>
+            <div class="main-div">
+                <div class="sidebar">
+                    <div id="OwnDetails">
+                    </div>
+                    <h3>GROUP MEMBERS</h3>
+
+                    <div class="peaple">
+                        <ul id="userList">
+                        </ul>
+                    </div>
+
+                    <button id="leaveBtn" class="leaveBtn" onclick="leaveChat()">Leave Conversation</button>
+                </div>
+
+
+                <div class="body">
+                    <div class="message-body">
+                        <div class="messages" id="messages">
+                        </div>
+                    </div>
+                    <div class="footer" id="footer">
+                        <textarea id="message" placeholder="Enter Message Here"></textarea>
+                        <button class="sendBtn" onclick="sendMessage()">Send</button>
+                        <button class="locBtn" onclick="sendLocation()">Send Location</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </body>
+</html>

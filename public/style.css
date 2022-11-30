@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+*:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #f1eeee;
+}
+::-webkit-scrollbar{
+    width: 9px;
+    height: 1px;
+    background-color: #464242;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: #464242;
+    height: 5px;
+}
+
+.main-div {
+    display: flex;
+}
+
+#OwnDetails {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #db0d33;
+}
+
+#OwnDetails p {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+.leaveBtn {
+    border: none;
+    background: red;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: monospace;
+    position: absolute;
+    bottom: 10px;
+    left: 28px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#userLeft {
+    color: red !important;
+}
+
+.sidebar {
+    height: 100vh;
+    background: linear-gradient(#00f3ff, #5656cc);
+    width: 18vw;
+    position: relative;
+}
+
+.sidebar h3 {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 20px;
+    letter-spacing: 1px;
+}
+
+.ownMessaage {
+    text-align: right;
+    padding-right: 23px;
+    margin-bottom: 20px;
+}
+
+.peaple {
+    padding-top: 20px;
+    height: 70%;
+    overflow: auto;
+}
+
+.peaple ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.peaple ul li {
+    width: 140px;
+    text-align: center;
+    background: #f7f7f7;
+    border-radius: 10px;
+    padding: 7px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.body {
+    position: relative;
+}
+
+.message-body {
+    height: 88vh;
+    overflow: auto;
+    width: 82vw;
+}
+
+.messages {
+    padding: 10px;
+}
+
+.messageBody {
+    margin-bottom: 20px;
+}
+
+.user {
+    font-size: 20px;
+}
+
+.newUser {
+    text-align: center;
+    color: #948c8c;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.user span {
+    color: #696565;
+    font-size: 13px;
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+
+.userMessage {
+    padding-left: 7px;
+    padding-top: 7px;
+}
+
+.footer {
+    display: flex;
+    width: 82vw;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer textarea {
+    border: 0.9px solid #b4afaf;
+    padding: 10px;
+    font-weight: 600;
+    width: 75%;
+    resize: none;
+}
+
+.footer button {
+    border: none;
+    background: #09095b;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 15px;
+    cursor: pointer;
+    height: 12vh;
+}
+
+.sendBtn {
+    width: 9%;
+}
+
+.locBtn {
+    width: 16%;
+    margin-left: 4px;
+}
